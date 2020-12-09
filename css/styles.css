@@ -90,6 +90,20 @@ body {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
+  
+  position: relative;
+}
+
+.link.active::after{
+  content: "";
+position: absolute;
+
+width: 100%;
+height: 4px;
+left: 0;
+bottom: -32px;
+background-color: var(--accent-color);
+border-radius: 2px;
 }
 
 .site-nav > .item:not(:last-child) {
@@ -120,7 +134,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
+ 
 }
+
+
+
 
 .site-nav .link:hover,
 .site-nav .link:focus,
