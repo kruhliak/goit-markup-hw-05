@@ -184,7 +184,6 @@ img {
 
 /* Герой */
 .site-hero {
-  background-color: var(--primari-background-color);
   text-align: center;
 }
 
@@ -603,7 +602,7 @@ img {
 .example-list > .item {
   margin: 15px 15px 0 15px;
   width: calc((1170px - 60px) / 3);
-  border: 1px solid #fff;
+  border: 1px solid #EEEEEE;
   overflow: hidden;
 }
 
@@ -663,7 +662,8 @@ img {
     transform var(--anitation-function);
 }
 
-.example-list .link:hover .text-overlay {
+.example-list .link:hover .text-overlay,
+.example-list .link:focus .text-overlay {
   opacity: 1;
   transform: scaleY(1);
 }
