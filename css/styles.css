@@ -603,13 +603,16 @@ img {
 .example-list > .item {
   margin: 15px 15px 0 15px;
   width: calc((1170px - 60px) / 3);
-  border: 1px solid #eeeeee;
     background-color: #FFFFFF;
   
 }
 
 .example-list > .item:nth-child(-n + 3) {
   margin-top: 0;
+}
+
+.example-list .link{
+   border: 1px solid #eeeeee;
 }
 
 
